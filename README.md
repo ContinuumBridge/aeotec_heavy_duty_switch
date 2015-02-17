@@ -1,6 +1,8 @@
 # aeotec_heavy_duty_switch
 Adaptor for Aeotec Heavy Duty Switch
 
+Note: We have found this device to be somewhat difficult to discover/include. In particular, it is never discovered if the bridge and device are very close together (< 1 metre). We recommend that you ensure that the two are at least 2 metres apart before pressing the Discover New Devices button. 
+
 This adaptor provides a service with the following characteristics:
 
     energy
