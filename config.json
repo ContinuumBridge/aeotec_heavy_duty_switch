@@ -3,8 +3,8 @@
     "protocol": "zwave", 
     "name": "Aeon Labs 78 3", 
     "device_resource": "/api/bridge/v1/device/53", 
-    "url": "https://github.com/ContinuumBridge/aeotec_heavy_duty_switch/archive/v1.0.1.tar.gz", 
-    "version": "1.0.1", 
+    "url": "https://github.com/ContinuumBridge/aeotec_heavy_duty_switch/archive/v1.0.2.tar.gz", 
+    "version": "1.0.2", 
     "provider": "ContinuumBridge", 
     "adaptor_resource": "/api/bridge/v1/adaptor/16", 
     "description": "Adaptor for Aeotec Heavy Duty Switch"

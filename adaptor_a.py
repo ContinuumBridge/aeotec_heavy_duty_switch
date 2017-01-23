@@ -239,13 +239,8 @@ class Adaptor(CbAdaptor):
         for f in message["service"]:
             if message["id"] not in self.apps[f["characteristic"]]:
                 self.apps[f["characteristic"]].append(message["id"])
-        self.cbLog("debug", "apps: " + str(self.apps))
+        self.cbLog("debug", "onAppRequest, apps: " + str(self.apps))
 
-    def onAppCommand(self, message):
-        if "data" not in message:
-            self.cbLog("warning", "app message without data: " + str(message))
-        else:
-            self.cbLog("warning", "This is a sensor. Message not understood: " +  str(message))
     def onAppCommand(self, message):
         self.cbLog("debug", "onAppCommand, req: " +  str(message))
         if "data" not in message:
